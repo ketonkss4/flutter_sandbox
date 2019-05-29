@@ -1,16 +1,11 @@
 # flutter_sandbox
 
-A new Flutter project.
+This is a sandbox application to play with the flutter cross-platform platform.
+Currently it is designed to display the top 3 popular repositories for an organization on github.
 
 ## Getting Started
+This application is currently using the Bloc architecture pattern 
+Inline-style: 
+![alt text](https://cdn-images-1.medium.com/max/1200/1*MqYPYKdNBiID0mZ-zyE-mA.png "Bloc Pattern Architecture Diagram")
+[blog post explaining Bloc by Sagar Suri](https://medium.com/flutterpub/architecting-your-flutter-project-bd04e144a8f1)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
