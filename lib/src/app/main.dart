@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_sandbox/src/ui/pages/repo_search_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(primarySwatch: Colors.amber),
-      home: ,
+      home: RepoSearchPage(),
     );
   }
 }
