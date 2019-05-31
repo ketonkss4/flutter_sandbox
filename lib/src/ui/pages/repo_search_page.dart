@@ -26,7 +26,7 @@ class RepoSearchPageState extends State<RepoSearchPage> {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder(
-        stream: bloc.repoDataObservable().stream,
+        stream: bloc.repoDataObservable.stream,
         builder: (BuildContext context, AsyncSnapshot snapshot) {
           SearchData data = snapshot.data;
           dataList = data.results;

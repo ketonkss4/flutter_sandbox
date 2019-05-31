@@ -7,7 +7,7 @@ class RepoResponse {
   RepoResponse(this.results, this.error);
 
   RepoResponse.fromJson(List<dynamic> json)
-      : results = json.map((i) => new Repo.fromJson(i)),
+      : results = json.map((i) => new Repo.fromJson(i)).toList(),
         error = null;
 
   RepoResponse.onError(error)
